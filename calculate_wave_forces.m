@@ -14,6 +14,8 @@ function [F_total_x, F_total_y] = calculate_wave_forces(frequency, AmplitudeX, A
 
     V = length*width*height;
 
+    acceV = length*width*height;
+
     Fb = 174128896;
     Fb = 217661120;
     V = Fb / rho / g
